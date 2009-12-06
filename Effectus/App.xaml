@@ -1,0 +1,13 @@
+﻿<Application x:Class="Effectus.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Application.Resources>
+		<ResourceDictionary>
+			<ResourceDictionary.MergedDictionaries>
+				<ResourceDictionary Source="Design/Styles/Shared.xaml" />
+				<ResourceDictionary Source="Design/Converters/Shared.xaml" />
+				<ResourceDictionary Source="Design/Templates/ToDoAction.xaml" />
+			</ResourceDictionary.MergedDictionaries>
+		</ResourceDictionary>
+	</Application.Resources>
+</Application>

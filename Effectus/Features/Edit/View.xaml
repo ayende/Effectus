@@ -1,0 +1,39 @@
+﻿<Window x:Class="Effectus.Features.Edit.View"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="View" Height="400" Width="400">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="60"/>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="50"/>
+			<RowDefinition Height="50"/>
+		</Grid.RowDefinitions>
+
+		<TextBlock Text="Edit Task" Style="{StaticResource Title}"
+				   Grid.Row="0"
+				   TextAlignment="Center"
+				   VerticalAlignment="Top"
+				   />
+
+		<Border
+			Grid.Row="1"
+			Padding="10 10 10 10">
+			<ContentControl Content="{Binding Path=Action}"/>
+		</Border>
+
+		<DockPanel Grid.Row="2">
+			<Border Padding="10 10 10 10" DockPanel.Dock="Left">
+				<Button x:Name="Save" Content="Save" />
+			</Border>
+			<Border Padding="10 10 10 10" DockPanel.Dock="Right">
+				<Button x:Name="Cancel" Content="Cancel" />
+			</Border>
+			<TextBlock/>
+		</DockPanel>
+		<Button
+			x:Name="CreateConcurrencyConflict"
+			Grid.Row="3"
+			Content="Create Concurrency Conflict"/>
+	</Grid>
+</Window>

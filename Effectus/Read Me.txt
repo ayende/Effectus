@@ -1,0 +1,25 @@
+This application intentionally make use of as few 3rd party libraries as possible. This
+is done in order to show as much as possible the principles, rather than the particular
+implementations.
+
+Database schema, including initial data, is in the Model/Schema.sql file
+
+Connection string appears in the hibernate.cfg.xml file
+
+* Note that every feature is isolated, and include presenter, view and view model.
+* Note that we have a convention about writing up view events to presenter methods
+  as part of the presenter initialization. It is important to observe that this 
+  convention is not a general one, and was developed specifically for the purpose
+  of this app, which significantly reduces the complexity.
+  The convention is:
+  * View events are wired by name. For example:
+    "Loaded" event on the view will be wired to the "OnLoaded()" method on the presenter
+  * Button commands are wired by name. For example:
+    "MoveNext" button is wired to the "OnMoveNext()" method. The "CanMoveNext" property 
+    is used to control whatever the button is enabled or disabled.
+  * Grids double click is wired by name. For example:
+    Double click on "Actions" will be wired to the "OnActionsChoosen(ToDoAction)"
+* Invoking presenter with arguments can be done by calling:
+  Presenters.Show("Edit", 5)
+  And having the edit presenter expose a public method Initialize(long) for accepting
+  the argument

@@ -1,0 +1,40 @@
+<mockup version="1.0" skin="sketch">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="184" y="176" w="337" h="387" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <topheight>26</topheight>
+        <text>Effectus</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="251" y="218" w="-1" h="-1" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Tasks</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::DataGrid" x="199" y="304" w="307" h="118" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Title%2C%20Started%2C%20Remaining%0AWrite%20app%2C%20Yes%2C%202%20days%0AWrite%20post%2C%20No%2C%202%20days%0APublish%20post%2C%20No%2C%203%20days</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Button" x="199" y="450" w="-1" h="-1" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3C%3C</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Button" x="466" y="450" w="-1" h="-1" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3E%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="311" y="450" w="119" h="25" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Page%201%20of%203</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Button" x="296" y="504" w="-1" h="-1" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Create%20New</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

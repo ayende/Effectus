@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+				   assembly="Effectus"
+				   namespace="Effectus.Model">
+	<class name="ToDoAction"
+			 table="ToDoActions">
+		<id name="Id">
+			<generator class="identity"/>
+		</id>
+		<version name="Version"/>
+		<property name="Title"/>
+		<property name="Content" />
+		<property name="Status" />
+		<property name="CompleteBy" />
+		<property name="CreatedAt" />
+	</class>
+</hibernate-mapping>

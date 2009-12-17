@@ -21,7 +21,7 @@ VALUES     (1,
             'Should really write the application', 
             1, 
             Getdate(), 
-            Getdate() + 3,) 
+            Getdate() + 3) 
 
 INSERT INTO [ToDo].[dbo].[ToDoActions] 
            ([Version], 
@@ -35,7 +35,7 @@ VALUES     (1,
             'Writing a blog post is nice and easy', 
             0, 
             Getdate(), 
-            Getdate() + 3,) 
+            Getdate() + 3) 
 
 INSERT INTO [ToDo].[dbo].[ToDoActions] 
            ([Version], 
@@ -49,7 +49,7 @@ VALUES     (1,
             'After writing, we should publish it', 
             0, 
             Getdate(), 
-            Getdate() + 3,) 
+            Getdate() + 3) 
 
 INSERT INTO [ToDo].[dbo].[ToDoActions] 
            ([Version], 
@@ -63,4 +63,4 @@ VALUES     (1,
             'It is considered nice to answer comments', 
             0, 
             Getdate(), 
-            Getdate() + 3,)
+            Getdate() + 3)
